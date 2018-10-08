@@ -84,7 +84,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/add"
-            tools:style="@style/Widget.AppCompat.Button.Borderless" />
+            tools:style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="newProduct" />
 
         <Button
             android:id="@+id/button2"
@@ -92,7 +93,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/find"
-            tools:style="@style/Widget.AppCompat.Button.Borderless" />
+            tools:style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="lookupProduct" />
 
         <Button
             android:id="@+id/button"
@@ -100,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/delete"
-            tools:style="@style/Widget.AppCompat.Button.Borderless" />
+            tools:style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="removeProduct" />
     </LinearLayout>
 </LinearLayout>
